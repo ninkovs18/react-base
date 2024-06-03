@@ -1,13 +1,14 @@
-import React from "react";
-import "./style.css";
-import ClickCounter from "./ClickCounter";
+import React from 'react'
+import './style.css'
+import ClickCounter from './ClickCounter'
 // import imageJPG from "./react-logo.jpg";
 // import imageSVG from "./react-1-logo.svg";
 
 export const App = () => {
+  const title = 'REACT BASE APP'
   return (
     <div>
-      <h1>REACT BASE APP</h1>
+      <h1>{title}</h1>
       <h2>
         ENVIROMENT - {process.env.NODE_ENV} - {process.env.name}
       </h2>
@@ -15,5 +16,5 @@ export const App = () => {
       {/* <img src={imageJPG} alt="React logo" width={300} height={300} />
       <img src={imageSVG} alt="React logo" width={300} height={300} /> */}
     </div>
-  );
-};
+  )
+}
