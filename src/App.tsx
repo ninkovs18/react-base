@@ -5,7 +5,7 @@ import ClickCounter from './ClickCounter'
 // import imageSVG from "./react-1-logo.svg";
 
 export const App = () => {
-  const title = 'REACT BASE APP'
+  const title = "REACT BASE APP"
   return (
     <div>
       <h1>T</h1>
