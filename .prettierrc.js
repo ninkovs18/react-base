@@ -7,4 +7,4 @@ module.exports = {
   endOfLine: 'auto',
   parser: 'typescript',
   arrowParens: 'avoid',
-}
+};
