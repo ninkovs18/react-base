@@ -8,7 +8,7 @@ export const App = () => {
   const title = 'REACT BASE APP'
   return (
     <div>
-      <h1>{title}</h1>
+      <h1>T</h1>
       <h2>
         ENVIROMENT - {process.env.NODE_ENV} - {process.env.name}
       </h2>
